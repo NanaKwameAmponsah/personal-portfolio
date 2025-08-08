@@ -62,7 +62,7 @@ export const Hero = () => {
               View My Work
             </motion.a>
             <motion.a
-              href="#contacts"
+              href="#contact"
               className="cta-secondary"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -72,11 +72,11 @@ export const Hero = () => {
             </motion.a>
             </motion.div>
         <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com" target="_blank">
+            <motion.a href="https://github.com/NanaKwameAmponsah" target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
             {" "}
-            <motion.a href="https://linkedin.com" target="_blank">
+            <motion.a href="https://www.linkedin.com/in/nana-kwame-amponsah" target="_blank">
               <i className="fab fa-linkedin"> </i>
             </motion.a>
             </motion.div>
