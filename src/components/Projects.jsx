@@ -87,14 +87,19 @@ Built a dual-interface platform for property managers and tenants with AWS Cogni
 
           </p>
           <div className="project-tech">
-            <span>Next.js</span>
+            <span>Redux Toolkit</span>
+            <span>Tailwind CSS</span>
+            <span>Shadcn</span>
             <span>TypeScript</span>
-            <span>AWS Cognito</span>
+            <span>Framer Motion</span>
+            <span>React Hook Form</span>
+            <span>Zod</span>
+            <span>Next.js</span>
             <span>PostgreSQL</span>
-            <span>Node.js</span>
-            <span>Express.js</span>
-            <span>RDS</span>
-            <span>S3</span>
+            <span>AWS S3</span>
+            <span>AWS RDS</span>
+            <span>AWS Amplify</span>
+            <span>AWS Cognito</span>
           </div>
         </motion.div>
 
