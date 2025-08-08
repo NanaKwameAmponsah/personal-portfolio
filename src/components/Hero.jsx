@@ -103,10 +103,10 @@ export const Hero = () => {
               {`const aboutMe: DeveloperProfile = {
 codename: "Nana Kwame Amponsah",
 stack: {
-    languages: ["JavaScript", "TypeScript", "SQL", "Python", "Java", "C++", "HTML", "CSS"],
-    libraries/frameworks: ["React", "Next.js", "TailwindCSS", "Redux Toolkit", "React Query (TanStack)", "Zustand", "Node.js/Express", "Flask", "Prisma", "Vite", "Junit"],
-    Developer tools: ["Git", "GitHub & GitHub Actions (CI/CD)", "Docker", "PM2", "Gradle", "nodemon", "pytest", "Jest"],
-    Databases & Cloud Services: ["MongoDB", "PostgreSQL", "AWS (S3, EC2, RDS)"]
+    languages: ["JavaScript", "TypeScript", "SQL", "Python", "Java", "C++"],
+    libraries/frameworks: ["React", "Next.js", "TailwindCSS", "Redux Toolkit", "React Query (TanStack)", "Zustand", "Node.js/Express", "Flask", "Prisma"],
+    Developer tools: ["Git", "GitHub & GitHub Actions (CI/CD)", "Docker", "PM2", "Gradle", "nodemon", "pytest", "Jest" , "Vite", "Junit"],
+    Databases & Cloud Services: ["MongoDB", "PostgreSQL", "AWS (S3, EC2, RDS, Cognito)"]
 },
 };`}
             </SyntaxHighlighter>
