@@ -53,8 +53,7 @@ const Projects = () => {
           />
           <h3> Full Stack Chat and Video calling application</h3>
           <p>
-Developed a real-time communication platform featuring messaging with typing indicators, HD WebRTC video calls, JWT authentication, and profile-based user matching. Integrated Stream Chat/Video SDKs, responsive themed UI, and a RESTful API with secure middleware.
-
+Created a real-time communication platform matching users with opposing philosophical perspectives via chat and HD video calls. Implemented messaging features including typing indicators, reactions, persistent history, and friend requests with live notifications. Developed HD video calling with WebRTC for screen sharing, call recording, and one-click invites. Implemented friend request system with notification center, guided user onboarding process, and comprehensive profile customization.  Built JWT-based authentication with secure cookie handling, session persistence, and protected API routes. Designed onboarding flow with profile customization, random avatar generation, and dynamic theme switching (32 themes, dark/light mode). Managed server state via TanStack Query and integrated MongoDB schemas for persistent, scalable data storage. Configured CI/CD pipeline with environment-specific builds for development and production.
           </p>
           <div className="project-tech">
             <span>Node.js</span>
@@ -83,8 +82,7 @@ Developed a real-time communication platform featuring messaging with typing ind
           />
           <h3>Full-Stack Role-Based Rental Management System</h3>
           <p>
-Built a dual-interface platform for property managers and tenants with AWS Cognito authentication, role-based dashboards, and Mapbox-powered real-time property search. Delivered end-to-end application workflows, interactive management dashboards, and optimized PostgreSQL schema via Prisma ORM with secure RESTful APIs.
-
+Developed a dual-interface rental property management platform for property managers and tenants, streamlining listings, applications, leases, and billing in real time. Implemented AWS Cognito authentication with role-based access control, securing manager/tenant workflows via protected routes and personalized dashboards. Built an advanced Mapbox-powered property search with debounced, real-time filtering by price, bedrooms, bathrooms, amenities, and geolocation coordinates. Architected PostgreSQL schema (Users, Properties, Applications, Leases) with Prisma ORM, optimized queries, and relational integrity. Designed an end-to-end application workflow enabling tenants to apply and managers to review/approve with automated status notifications. Integrated RESTful APIs with JWT authentication, role-based middleware, and data validation for secure and scalable backend operations. Enhanced user experience with responsive dashboards, animated UI, and real-time synchronization for property and application data.
           </p>
           <div className="project-tech">
             <span>Redux Toolkit</span>
@@ -120,8 +118,7 @@ Built a dual-interface platform for property managers and tenants with AWS Cogni
           />
           <h3>Real-time Cryptocurrency Dashboard</h3>
           <p>
-Created a responsive, mobile-first dashboard integrating CoinGecko API for live market data and Google Charts for historical trends. Implemented multi-currency conversion, React Context state management .
-
+Built a responsive  cryptocurrency dashboard displaying live market data for 100+ coins via CoinGecko API. Developed currency conversion across USD, EUR, GBP, and JPY with locale-aware formatting. Integrated Google Charts for 10-day historical trends and visual analytics. Optimized performance through lazy loading, memoization, code-splitting, and minimal re-renders. Created reusable component library (Navbar, Footer, LineChart, SearchBar) for consistency and scalability. Configured React Router for multi-page navigation and Vite-based GitHub Pages deployment with zero downtime. 
           </p>
           <div className="project-tech">
             <span>React</span>
