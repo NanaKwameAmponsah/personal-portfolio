@@ -98,6 +98,8 @@ Developed a dual-interface rental property management platform for property mana
             <span>AWS RDS</span>
             <span>AWS Amplify</span>
             <span>AWS Cognito</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
           </div>
         </motion.div>
 
