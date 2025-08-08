@@ -53,7 +53,7 @@ const Projects = () => {
           />
           <h3> Full Stack Chat and Video calling application</h3>
           <p>
-Real-time messaging, WebRTC video, JWT auth, and social features
+Developed a real-time communication platform featuring messaging with typing indicators, HD WebRTC video calls, JWT authentication, and profile-based user matching. Integrated Stream Chat/Video SDKs, responsive themed UI, and a RESTful API with secure middleware.
 
           </p>
           <div className="project-tech">
@@ -83,14 +83,18 @@ Real-time messaging, WebRTC video, JWT auth, and social features
           />
           <h3>Full-Stack Role-Based Rental Management System</h3>
           <p>
-AWS Cognito auth, Mapbox search, property/application workflows
+Built a dual-interface platform for property managers and tenants with AWS Cognito authentication, role-based dashboards, and Mapbox-powered real-time property search. Delivered end-to-end application workflows, interactive management dashboards, and optimized PostgreSQL schema via Prisma ORM with secure RESTful APIs.
 
           </p>
           <div className="project-tech">
             <span>Next.js</span>
             <span>TypeScript</span>
-            <span>AWS</span>
+            <span>AWS Cognito</span>
             <span>PostgreSQL</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>RDS</span>
+            <span>S3</span>
           </div>
         </motion.div>
 
@@ -111,7 +115,7 @@ AWS Cognito auth, Mapbox search, property/application workflows
           />
           <h3>Real-time Cryptocurrency Dashboard</h3>
           <p>
-CoinGecko API integration, Google Charts, multi-currency conversion
+Created a responsive, mobile-first dashboard integrating CoinGecko API for live market data and Google Charts for historical trends. Implemented multi-currency conversion, React Context state management .
 
           </p>
           <div className="project-tech">
