@@ -104,8 +104,8 @@ export const Hero = () => {
 codename: "Nana Kwame Amponsah",
 stack: {
     languages: ["JavaScript", "TypeScript", "SQL", "Python", "Java", "C++"],
-    libraries/frameworks: ["React", "Next.js", "TailwindCSS", "Redux Toolkit", "React Query (TanStack)", "Zustand", "Node.js/Express", "Flask", "Prisma"],
-    Developer tools: ["Git", "GitHub & GitHub Actions (CI/CD)", "Docker", "PM2", "Gradle", "nodemon", "pytest", "Jest" , "Vite", "Junit"],
+    libraries/frameworks: ["React", "Next.js", "Spring Boot", "Spring AI", "TailwindCSS", "Redux Toolkit", "React Query (TanStack)", "Zustand", "Node.js/Express", "Flask", "Prisma"],
+    Developer tools: ["Git", "GitHub & GitHub Actions (CI/CD)", "Docker", "PM2", "Gradle", "nodemon", "pytest", "Jest", "Vite", "Junit"],
     Databases & Cloud Services: ["MongoDB", "PostgreSQL", "AWS (S3, EC2, RDS, Cognito)"]
 },
 };`}
