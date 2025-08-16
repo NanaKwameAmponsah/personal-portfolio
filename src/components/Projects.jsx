@@ -43,32 +43,6 @@ const Projects = () => {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
-          onClick={() => window.open('https://mind-swap.onrender.com/login', '_blank')}
-          style={{ cursor: 'pointer' }}
-        >
-          <motion.div
-            className="project-image"
-            style={{ backgroundImage: "url('/projects/mindswap.png')" }}
-            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
-          />
-          <h3> Full Stack Chat and Video calling application</h3>
-          <p>
-Created a real-time communication platform matching users with opposing philosophical perspectives via chat and HD video calls. Implemented messaging features including typing indicators, reactions, persistent history, and friend requests with live notifications. Developed HD video calling with WebRTC for screen sharing, call recording, and one-click invites. Implemented friend request system with notification center, guided user onboarding process, and comprehensive profile customization.  Built JWT-based authentication with secure cookie handling, session persistence, and protected API routes. Designed onboarding flow with profile customization, random avatar generation, and dynamic theme switching (32 themes, dark/light mode). Managed server state via TanStack Query and integrated MongoDB schemas for persistent, scalable data storage. Configured CI/CD pipeline with environment-specific builds for development and production.
-          </p>
-          <div className="project-tech">
-            <span>Node.js</span>
-            <span>Express</span>
-            <span>MongoDB</span>
-            <span>React</span>
-            <span>TanStack Query</span>
-            <span>TailwindCSS</span>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="project-card"
-          variants={fadeInUp}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
           onClick={() => window.open('https://main.d2c0sqt60d3ygh.amplifyapp.com/', '_blank')}
           style={{ cursor: 'pointer' }}
         >
@@ -102,6 +76,60 @@ Developed a dual-interface rental property management platform for property mana
             <span>Express.js</span>
           </div>
         </motion.div>
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() => window.open('https://kwame-audio-transcriber.netlify.app/', '_blank')}
+          style={{ cursor: 'pointer' }}
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: "url('/projects/audio-transcriber.png')" }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3> Full-Stack AI-Powered Audio Transcription Platform</h3>
+          <p>
+Developed a full-stack web app that converts audio files (.WAV, MP3, etc.) into accurate text transcriptions using OpenAI’s Whisper model. Built a modern React frontend with file upload, real-time transcription display, and responsive UI. Designed and implemented RESTful Spring Boot APIs for audio upload, Whisper API integration, and secure CORS handling. Containerized backend with Docker and deployed to Render for scalable cloud operation; deployed frontend to Netlify for fast global delivery. Implemented secure environment-based configuration and orchestrated end-to-end integration between frontend, backend, and AI services for production-ready workflows.
+          </p>
+          <div className="project-tech">
+            <span>React</span>
+            <span>Spring Boot</span>
+            <span>Spring AI</span>
+            <span>OpenAI Whisper</span>
+            <span>Docker</span>
+            <span>Render</span>
+            <span>Netlify</span>
+          </div>
+        </motion.div>
+
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() => window.open('https://mind-swap.onrender.com/login', '_blank')}
+          style={{ cursor: 'pointer' }}
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: "url('/projects/mindswap.png')" }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3> Full Stack Chat and Video calling application</h3>
+          <p>
+Created a real-time communication platform matching users with opposing philosophical perspectives via chat and HD video calls. Implemented messaging features including typing indicators, reactions, persistent history, and friend requests with live notifications. Developed HD video calling with WebRTC for screen sharing, call recording, and one-click invites. Implemented friend request system with notification center, guided user onboarding process, and comprehensive profile customization.  Built JWT-based authentication with secure cookie handling, session persistence, and protected API routes. Designed onboarding flow with profile customization, random avatar generation, and dynamic theme switching (32 themes, dark/light mode). Managed server state via TanStack Query and integrated MongoDB schemas for persistent, scalable data storage. Configured CI/CD pipeline with environment-specific builds for development and production.
+          </p>
+          <div className="project-tech">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>React</span>
+            <span>TanStack Query</span>
+            <span>TailwindCSS</span>
+          </div>
+        </motion.div>
+
 
         <motion.div
           className="project-card"
