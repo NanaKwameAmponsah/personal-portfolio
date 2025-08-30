@@ -48,9 +48,6 @@ export const Hero = () => {
             {" "}
             Computer Science Student at the University of Virginia
           </motion.h2>
-          <motion.p className="hero-description" variants={fadeInUp}>
-            Aspiring software engineer with a passion for building.
-          </motion.p>
         <motion.div className="cta-buttons" variants={staggerContainer}>
             <motion.a
               href="#projects"
