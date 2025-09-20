@@ -64,8 +64,6 @@ Developed a dual-interface rental property management platform for property mana
             <span>Shadcn</span>
             <span>TypeScript</span>
             <span>Framer Motion</span>
-            <span>React Hook Form</span>
-            <span>Zod</span>
             <span>Next.js</span>
             <span>PostgreSQL</span>
             <span>AWS S3</span>
@@ -156,6 +154,70 @@ Built a responsive  cryptocurrency dashboard displaying live market data for 100
             <span>CSS</span>
             <span>HTML</span>
 
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() => window.open('https://github.com/NanaKwameAmponsah/azure-honeynet-soc', '_blank')}
+          style={{ cursor: 'pointer' }}
+        >
+          <motion.div
+            className="project-image"
+            style={{
+              backgroundImage: "url('/projects/image-2.png')",
+            }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.2 }}
+          />
+          <h3>Azure Honeypot SOC & Security Hardening Project</h3>
+          <p>
+Deployed a mini honeynet in Microsoft Azure consisting of 2 Windows VMs, 1 Linux VM, a Virtual Network, Network Security Group (NSG), Azure Key Vault, and a Storage Account.
+Configured Azure Monitor Agent to forward Windows SecurityEvent logs, Linux Syslog, and NSG Flow Logs into a centralized Log Analytics Workspace (LAW).
+Developed KQL queries to detect failed login attempts  and enriched logs with GeoIP threat intelligence.
+Integrated Microsoft Sentinel for analytics: created alert rules (e.g. failed RDP auth, Linux SSH auth failure), used attack map visualizations, and set up incident generation.
+Collected baseline metrics over 24 hours in an insecure environment, then applied security hardening and measured results for another 24 hours.
+          </p>
+          <div className="project-tech">
+            <span>Microsoft Azure</span>
+            <span>Azure Sentinel</span>
+            <span>Log Analytics</span>
+            <span>KQL</span>
+            <span>SIEM</span>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() => window.open('https://github.com/NanaKwameAmponsah/log-analysis-with-siem', '_blank')}
+          style={{ cursor: 'pointer' }}
+        >
+          <motion.div
+            className="project-image"
+            style={{
+              backgroundImage: "url('/projects/loganalysiswsiem.png')",
+            }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.2 }}
+          />
+          <h3>Log Analysis with SIEM </h3>
+          <p>
+Investigated Windows Event Logs to detect suspicious outbound connections, identifying a malicious process communicating with IP and extracting its MD5 hash.
+Analyzed Linux authentication logs in Splunk to trace persistence activity: identified account creation timestamp, privilege escalation by user, and multiple failed login attempts from an IP address.
+Detected brute-force web attacks by analyzing server logs and identifying abnormal request patterns and attacker tools.
+Documented indicators of compromise (IOCs) and classified attacker tactics including persistence, brute force, and privilege escalation. 
+
+          </p>
+          <div className="project-tech">
+            <span>Splunk SIEM</span>
+            <span>Log Analysis</span>
+            <span>Windows Event Logs</span>
+            <span>Linux SysLogs</span>
+            <span>Apache Logs</span>
           </div>
         </motion.div>
       </motion.div>
